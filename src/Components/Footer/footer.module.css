@@ -1,0 +1,124 @@
+footer {
+    background-color: #e3e3e3;
+    display: grid;
+    height: 70vh;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: .8rem;
+    display: block;
+    font-size: 17px;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    color: #404553ba;
+}
+
+.socialIcons {
+    display: flex;
+}
+
+.icon {
+    font-size: 18px !important;
+}
+
+.icon span {
+    margin: 8px;
+}
+
+.findIt {
+    text-decoration: underline;
+}
+
+.contact {
+    padding: 10px;
+
+}
+
+.service {
+    padding: 10px;
+}
+
+.about {
+    padding: 10px;
+}
+
+.category {
+    padding: 10px;
+}
+
+.links {
+    color: black !important
+}
+
+.facebooklink {
+    color: #1877F2
+}
+
+.twitterlink {
+    color: #1DA1F2
+}
+
+.youtubelink {
+    color: #FF0000
+}
+
+.instalink {
+    color: #bc2a8d
+}
+
+/* Media Queries */
+@media (max-width:600px) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content
+    }
+}
+
+/* ///////////////////////// */
+@media (min-width:600px) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content
+    }
+}
+
+/* ///////////////////////// */
+@media (min-width:768px) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content
+    }
+}
+
+/* ///////////////////////// */
+@media (min-width:992px) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content
+    }
+}
+
+/* ///////////////////////// */
+@media (min-width:1200px) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        height: fit-content
+    }
+}

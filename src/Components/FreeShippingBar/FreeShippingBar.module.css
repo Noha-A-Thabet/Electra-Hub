@@ -1,0 +1,99 @@
+.shippingBar {
+    height: 6vh !important;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.shippingBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+}
+
+.shippingBar ul li {
+    padding: 1rem;
+}
+
+.shippingBar ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ///////// Media Queries///////// */
+
+
+@media(max-width:600px) {
+    .shippingBar {
+        height: 5vh;
+    }
+
+    .shippingBar ul {
+        display: flex;
+        align-items: center !important;
+    }
+
+    .shippingBar ul li {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+
+@media(min-width:600px) {
+    .shippingBar {
+        height: 7vh !important;
+    }
+
+    .shippingBar ul {
+        display: flex;
+        align-items: center !important;
+    }
+
+    .shippingBar ul li {
+        font-size: 15px !important;
+        font-weight: 400;
+        padding: 1rem;
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+
+@media(min-width:768px) {
+    .shippingBar {
+        height: 5vh;
+    }
+
+    .shippingBar ul {
+        display: flex;
+        align-items: center !important;
+    }
+
+    .shippingBar ul li {
+        font-size: 14px !important;
+        font-weight: 400;
+        padding: 1rem;
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+@media(min-width:1200px) {
+    .shippingBar {
+        height: 5vh;
+    }
+
+    .shippingBar ul {
+        display: flex;
+        align-items: center !important;
+    }
+
+    .shippingBar ul li {
+        font-size: 18px !important;
+        padding: 1.2rem;
+    }
+}
